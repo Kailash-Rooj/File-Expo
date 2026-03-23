@@ -50,7 +50,7 @@
 
   <!-- Main Content -->
   <main class="main-content">
-    <div class="container">
+    <div class="container" style="max-height: 85vh !important; min-height: 60vh !important; display: flex !important; flex-direction: column !important; overflow: hidden !important; position: relative; transform: translateZ(0);">
       <h1><i class="fa-solid fa-folder-open"></i> File Explorer</h1>
 
       <!-- Modern Search Bar -->
@@ -121,9 +121,9 @@
       </div>
 
       <!-- File List -->
-      <section class="file-section">
+      <section class="file-section" style="flex: 1 1 auto !important; min-height: 0 !important; overflow-y: auto !important;">
         <h2><i class="fa-solid fa-database"></i> Files & Folders</h2>
-        <ul id="fileList" class="file-list">
+        <ul id="fileList" class="file-list" style="margin-bottom: 20px; padding-bottom: 20px;">
           <!-- Dynamically populated by script.js -->
         </ul>
       </section>
