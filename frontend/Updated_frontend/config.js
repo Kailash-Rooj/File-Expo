@@ -2,5 +2,5 @@
 // after you deploy the backend service on render.com
 // Example: "https://flexifile-backend.onrender.com"
 window.APP_CONFIG = {
-  API_URL: "https://YOUR-BACKEND-NAME.onrender.com"
+  API_URL: "https://file-expo.onrender.com"
 };
