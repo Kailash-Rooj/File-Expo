@@ -1,0 +1,13 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+**/__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Render / deployment
+*.log
